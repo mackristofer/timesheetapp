@@ -1,0 +1,116 @@
+.title-nome-cli{
+    padding-top: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+}
+.title-caso{
+    padding-top: 15px;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.title-caso{
+    padding-top: 20px;
+    p{
+        font-style: italic;
+    }
+}
+
+.title-advogado{
+    text-align: end;
+    p{
+        font-style: italic;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 25px;
+    }
+}
+
+.card-timesheet{
+    display: flex;
+    background-color: #FEFCFC;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    height: 150px;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.card-info{
+    display: block;
+    margin-right: 200px;
+    text-align: justify;
+    p{
+        margin-left: 15px;
+    }
+}
+
+.card-time-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 100px;
+    
+}
+
+.card-total-hora-inside{
+    display: flex;
+    align-content: flex-end;
+    height: 50px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    background-color: #ddc0c0;
+    border-radius: 15px;
+    width: 300px;
+    p{
+        padding-top: 12px;
+        margin-left: 55px;
+        font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 29px;
+    }
+}
+
+.valor-total-nota{
+    height: 50px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    background-color: #D1A3A3;
+    border-radius: 15px;
+    width: 300px;
+    p{
+        padding-top: 12px;
+        margin-left: 55px;
+        font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 29px;
+    }
+}
+
+.hora-total-adv{
+    height: 50px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    background-color: #eee3e3;
+    border-radius: 15px;
+    width: 300px;
+    p{
+        padding-top: 12px;
+        margin-left: 55px;
+        font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 29px;
+    }
+    
+}

@@ -1,0 +1,38 @@
+.main-nav{
+    height: 80px;
+    color: #000;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+.main-menu{
+    display: flex;
+
+    width: 350px;
+    margin-left: 100px;
+    li:nth-child(2){
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    
+}
+
+.link-menu{
+        font-size: 18px;
+        font-style: normal;
+        color: rgba(8, 8, 8, 0.644);
+
+        &.active{
+            font-weight: bold;
+            color: #000;
+        }
+
+        &:hover{
+            color: #000;
+        }
+}
