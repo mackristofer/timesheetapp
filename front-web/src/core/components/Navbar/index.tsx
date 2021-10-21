@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
-import { ReactComponent as Logo } from 'core/assets/images/logo.svg';
+import { ReactComponent as Logo } from 'core/assets/images/logom3.svg';
 import './styles.scss';
 import { getSessionData, logout } from 'core/utils/auth';
 import { useState } from 'react';

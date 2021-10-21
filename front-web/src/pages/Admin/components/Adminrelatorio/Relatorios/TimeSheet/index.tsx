@@ -58,8 +58,7 @@ const RelTimeSheet = () => {
     return (
         <div className="container">
             <div>
-                <h1 className="title-nome-cli">{r?.nomeCliente}</h1>
-                      
+                <h1 className="title-nome-cli">{r?.nomeCliente}</h1>                 
                 <div>
                     {r?.casoByAdv.map(x => (             
                         <>
@@ -81,17 +80,16 @@ const RelTimeSheet = () => {
                                                 </div>
                                             </>
                                         ))}
-                                        <div className="hora-total-adv"><p>Total Horas: {y.horaF}</p></div>
+                                        <div className="hora-total-adv"><p>Horas total do Advogado: {y.horaF}</p></div>
                                     </>
                                 ))}</p>
                             </div>
-                            <div className="card-total-hora-inside"><p>Hora total do caso: {x.totalHoraCaso}</p></div>
+                            <div className="card-total-hora-inside"><p>Horas total do caso: {x.totalHoraCaso}</p></div>
                             <div className="valor-total-nota"><p>Valor total do caso: {new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(x.valorTotalCaso)}</p></div>
-                            <div className="valor-total-nota"><p>Valor total: {new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(r.valorTotalNota)}</p></div>
- 
                         </>
+                        
                     ))}
- 
+ {r?.valorTotalNota && <div className="valor-total-nota"><p>Valor total da nota: {new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(r.valorTotalNota)}</p></div>}
                 </div>
                 
             </div>
